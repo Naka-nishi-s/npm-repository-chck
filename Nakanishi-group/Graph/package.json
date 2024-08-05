@@ -1,0 +1,25 @@
+{
+  "name": "nakanishi-group-graph",
+  "version": "0.1.0",
+  "description": "Nakanishiグループのグラフコンポーネント",
+  "main": "dist/NakanishiGraph.js",
+  "types": "dist/NakanishiGraph.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Nakanishi",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.6",
+    "@mui/x-data-grid": "^7.12.0",
+    "nakanishi-group-graph": "file:",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}

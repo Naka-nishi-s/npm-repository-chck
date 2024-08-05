@@ -1,0 +1,21 @@
+{
+  "name": "nakanishi-group-button",
+  "version": "1.0.0",
+  "description": "Nakanishiグループのボタンコンポーネント",
+  "main": "dist/NakanishiButton.js",
+  "types": "dist/NakanishiButton.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Nakanishi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
+  "dependencies": {
+    "nakanishi-group-button": "file:",
+    "typescript": "^5.5.4"
+  }
+}
